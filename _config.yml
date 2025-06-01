@@ -3,7 +3,7 @@
 #
 title: Giang To's portfolio
 url: "https://giangto1.github.io"   # no trailing slash!
-baseurl: "/GiangTo-website"         # <- add this line here
+baseurl: "/personal-website"         # <- add this line here
 author:
   name: Giang To
   email: giangto14603@gmail.com
