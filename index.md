@@ -29,7 +29,7 @@ During my senior year, I was a research assistant in the Statistics department t
 In the past, I was a Data Analyst Intern at Colorado State University - Forest and Rangeland Department, where I worked to analyse 300K forest fires data points across the San Bernandino mountain range to develop land care and forest fire preventation strategies.
 
 <figure style="text-align: center;">
-        <img  src="{{ site.baseurl }}/assets/img/presenting_at_asa.JPG" alt='Poster Presentation' width="487.5" height="300">
+        <img  src="{{ site.baseurl }}/assets/img/presenting_at_asa.JPG" alt='Poster Presentation' style="display: inline-block; width:487.5; height:300;">
         <figcaption>ASA-TC Chapter Conference 2025, Minneapolis, MN</figcaption>
 </figure>
 
