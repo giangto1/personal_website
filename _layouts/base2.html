@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+    <div style="display: flex; flex-direction: row;">
+     <aside style="width: 300px; background-color: #f5f5f5; padding: 20px;">
+        <div style="text-align: center; margin-top: 50px;">
+            <img src="assets/img/profile.jpg" alt="profile" style="width: 120px; height: 140px;">
+        </div>
+        <h1 style="font-size: 18px; font-weight: 600; text-align: center; line-height: 30px; margin-top: 10px;">Giang To</h1>
+        <div style="text-align: center !important; margin-bottom: 10px;">
+            <span class="badge badge-white badge-pill profile-designation" style="display: inline-block; padding: 0.6em 0.6em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 10rem; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; color: #0e0f0f; background-color: #add8e6;">Data Analystics & Engineering</span>
+        </div>
+        <nav style="margin-bottom: 1rem; text-align: center;">
+            <a href="https://www.github.com/giangto1" style="display: inline-block; font-size: 20px; line-height: 1; color: #0067f6; text-align: center; background-color: #ffffff; padding: 8px; width: 28px; height: 28px; border-radius: 50%; margin-right: 4px;"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/giangto146" style="display: inline-block; font-size: 20px; line-height: 1; color: #0067f6; text-align: center; background-color: #ffffff; padding: 8px; width: 28px; height: 28px; border-radius: 50%; margin-right: 4px;"><i class='fab fa-linkedin'></i></a>
+        </nav>
+        <div style="text-align: center; margin-bottom: 28px;">
+            <h5 style="font-size: 14px; font-weight: 500; text-transform: uppercase; margin-bottom: 10px;">contact information</h5>
+            <div style="font-size: 13px;">
+                <p style="margin-bottom: 5px;">PHONE : +1 612 458 4519</p>
+                <p style="margin-bottom: 5px;">MAIL : giangto14603@gmail.com</p>
+                <p style="margin-bottom: 10px;">LOCATION : Houston, TX</p>
+            </div>
+        </div>
+     </aside>
+    <main class="page-content" aria-label="Content" style="flex-grow: 1; padding:20px; overflow-y: auto; margin: 0;"> 
+ 
+
+      <div class="wrapper"  style="margin: 0px; padding: 50px;"> 
+        {{ content }}
+      </div>
+
+    </main>
+    </div>
+    {%- include footer.html -%}
+
+    {%- include sub-footer.html -%}
+
+  </body>
+
+</html>
