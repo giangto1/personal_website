@@ -15,11 +15,11 @@ During my time in college, I not only focused on academics and building meaningf
 
 <div style="display: flex; gap: 20px;">
     <figure style="text-align: center;">
-        <img src='/assets/img/agi_team_pic.JPG' alt='AGI Teammates' width="400" height="450">
+        <img  src="{{ site.baseurl }}/img/agi_team_pic.JPG" alt='AGI Teammates' width="400" height="450">
         <figcaption>AGI Hackathon 2025, Minneapolis, MN</figcaption>
     </figure>
     <figure style="text-align: center;">
-        <img src='/assets/img/standing_in_the_hallway.jpg' alt='Summa Cum Laude' width="400" height="450">
+        <img  src="{{ site.baseurl }}/img/standing_in_the_hallway.jpg" alt='Summa Cum Laude' width="400" height="450">
         <figcaption>UMN Honors Recognition Ceremony</figcaption>
     </figure>
 </div>
@@ -29,7 +29,7 @@ During my senior year, I was a research assistant in the Statistics department t
 In the past, I was a Data Analyst Intern at Colorado State University - Forest and Rangeland Department, where I worked to analyse 300K forest fires data points across the San Bernandino mountain range to develop land care and forest fire preventation strategies.
 
 <figure style="text-align: center;">
-        <img src='/assets/img/presenting_at_asa.JPG' alt='Poster Presentation' width="487.5" height="300">
+        <img  src="{{ site.baseurl }}/img/presenting_at_asa.JPG" alt='Poster Presentation' width="487.5" height="300">
         <figcaption>ASA-TC Chapter Conference 2025, Minneapolis, MN</figcaption>
 </figure>
 
