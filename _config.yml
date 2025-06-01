@@ -2,7 +2,8 @@
 # ------------------
 #
 title: Giang To's portfolio
-
+url: "https://giangto1.github.io"   # no trailing slash!
+baseurl: "/GiangTo-website"         # <- add this line here
 author:
   name: Giang To
   email: giangto14603@gmail.com
@@ -33,7 +34,6 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-baseurl: "/personal_website"
 #
 # Uncomment the following setting if you wish to disable deprecation warnings
 #   from newer versions of sass converter. Adapt as required.
