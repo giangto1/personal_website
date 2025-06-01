@@ -18,7 +18,7 @@ You can find the source code for Jekyll at GitHub:
 [jekyll-organization]: https://github.com/jekyll -->
 
 <div style="display: flex; align-items: center; gap: 2rem; margin-top: 2rem;">
-  <img src="/assets/img/about_me.jpg" alt="Giang To" style="width: 350px; border-radius: 10px;">
+  <img src="{{ site.baseurl }}/assets/img/about_me.jpg" alt="Giang To" style="width: 350px; border-radius: 10px;">
 
   <div>
     <h2>Hello! I'm Giang To</h2>
